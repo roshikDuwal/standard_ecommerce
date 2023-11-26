@@ -1,0 +1,142 @@
+.description-image {
+    margin-top: 0 !important;
+}
+
+.box-image {
+    width: 100%;
+    height: 85vh;
+}
+
+
+.box-image .swiper {
+    height: 75% !important;
+}
+
+.box-image .swiper .swiper-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.box-image .swiper .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.box-image .swiper .swiper-wrapper .swiper-slide img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    margin: 0 !important;
+    padding: 2rem;
+}
+
+
+
+.box-image .image-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 25% !important;
+}
+
+
+.image-detail .imagelist {
+    width: 20%;
+    height: 100%;
+}
+
+.image-detail .imagelist img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-detail h4{
+    font-size: 2rem !important;
+    text-transform: capitalize;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.price .regular{
+   
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+}
+
+.price .sale{
+    font-weight: 800;
+}
+
+@media screen and (max-width:480px) {
+
+    .box-image .swiper {
+        height: 65% !important;
+    }
+
+    .swiper-slide img {
+        padding: 0 !important;
+
+    }
+
+    .box-image .image-detail {
+        height: 35% !important;
+
+    }
+
+    .image-detail .imagelist {
+        width: 40%;
+        height: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width:415px) {
+
+    .container{
+        padding: 0 !important;
+    }
+
+    .productimage {
+        height: 15rem;
+        padding: 0 !important;
+    }
+
+    .productimage .description-image {
+        height: 100% !important;
+    }
+
+    .productimage .description-image .box-image {
+        height: 100% !important;
+    }
+
+    .box-image .swiper {
+        height: 80% !important;
+    }
+
+    .box-image .image-detail {
+        display: none !important;
+    }
+
+    .box-image .swiper .swiper-wrapper{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .box-image .swiper .swiper-wrapper .swiper-slide {
+        height: 100% !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .box-image .swiper .swiper-wrapper .swiper-slide img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
+}

@@ -1,0 +1,250 @@
+.feature-product {
+    padding: 0 2rem;
+}
+
+.flatcheck{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin-top: 1rem;
+}
+
+.tab-list .bolder {
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    letter-spacing: 1px;
+
+}
+
+.imagebox span.item-new-sales{
+    position: absolute;
+    top: 19px;
+    left: 0px;
+    width: 48px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 999;
+    background-color: #C88943;
+}
+
+
+.mySwiper{
+    width: 100%;
+}
+
+.newarrivalproduct {
+  
+    width: 100%;
+    margin: 0% !important;
+}
+
+.pbox {
+    margin: 0  0.4rem !important;
+    transition: all 0.2s ease-in;
+  
+}
+
+.slidebox{
+    width: 50px !important;
+}
+
+.pbox:hover{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: #001132 !important;
+}
+
+.product-box{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px !important;
+}
+.swiper-slide {
+    min-width: 22rem;
+}
+.imagebox{
+    border-radius: 0px !important;
+}
+
+.imagebox ul li{
+    height: 100%;
+    width: 100% !important;
+}
+.imagebox ul li img{
+    width: 100% ;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+.imagebox .productdescription{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.product-box .imagebox{
+    padding: 4px ;
+    
+}
+
+
+.product-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name .title-name h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-name .price h5{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.product-name .description  h5{
+    font-size: 14px;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+
+
+.flat-slider {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider,
+.slider .slider-item {
+    background-color: transparent;
+
+}
+
+.header-item h2 {
+    color: #00E5EF !important;
+    font-family: Poppins !important;
+    font-size: 48px !important;
+    font-weight: 600 !important;
+    line-height: 40px !important;
+    letter-spacing: 0.05em !important;
+    text-align: left !important;
+}
+
+.header-item div {
+    color: white !important;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.banner-btn {
+    width: 168px;
+    height: 48px;
+    border-radius: 80px;
+    background-color: #00E5EF;
+    color: #001132;
+    margin-top: 1.5rem;
+}
+
+.spec img {
+    width: 100%;
+}
+
+.get-more {
+    background-image: linear-gradient(to bottom, #2B7FBF20, #54C3E800);
+    margin: 0.8rem;
+    padding: 1.4rem;
+    border-radius: 4px;
+}
+
+.get-more h2 {
+    color: black;
+}
+
+.get-more h4 {
+    color: #2B7FBF;
+    margin: 1rem 0;
+}
+
+.get-more input,
+.box-content input {
+    background-color: #2B7FBF;
+    border-radius: 4px;
+    padding: 2px 6px !important;
+    height: 28px;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    margin: 1rem 0;
+}
+
+.product-box {
+    border: 1px solid #D9D9D9;
+    height: 27rem;
+    text-align: left !important;
+}
+
+.box-content {
+    text-align: left;
+}
+
+.product-name h5 span {
+    color: #C88943;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+strike {
+    color: grey;
+    margin: 0px 2px;
+}
+
+.product-name h2 {
+    margin: 0.4rem 0;
+}
+
+.feat {
+    padding-left: 3rem;
+    margin: 3rem 0;
+    border-right: 1px solid #ACACAC;
+}
+
+.feat-last {
+    border-right: none;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+@media screen and (max-width:1023px) {
+    .feat{
+        border-right: 0px !important;
+        padding-bottom: 2rem;
+        border-bottom: 0.2px solid rgb(230, 230, 230);
+    }
+    
+}
+

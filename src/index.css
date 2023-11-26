@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* --------------scrollbar------------ */
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(165, 165, 165);
+    border-radius: 1rem;
+    border: .1px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(105, 104, 104);
+}
+
+
+.section-portfolio {
+    background: #252323;
+    transition: all 0.7s linear;
+    margin: 0;
+    padding: 2rem !important;
+
+}
+
+.section-portfolio p {
+    max-width: 60rem;
+}
+
+
+
+.experties-heading {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    position: relative;
+    font-family: 'Roboto', 'Times New Roman', Times, serif !important;
+
+}
+
+
+.portfolio-images {
+    gap: 3.2rem;
+}
+
+.portfolio-images img {
+    width: 80%;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-overlay {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.overlay a {
+    font-size: 2rem;
+}
+
+.img-overlay .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background: var(--gradientSupport);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    border-radius: 7px;
+    opacity: 0;
+}
+
+.img-overlay:hover>.overlay {
+    transform: translateY(0);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.img-overlay .common-heading {
+    margin: 0;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.img-overlay .common-heading::before {
+    width: 0;
+    height: 0;
+}
+
+.img-overlay .common-heading::after {
+    width: 0;
+    height: 0;
+}
+
+.p-image-not-active {
+    display: none;
+}
+
+.p-btn:active {
+    transform: translateY(-1rem);
+}
+
+.experties-logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.experties-logo .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experties-logo .name .fa-brands {
+    font-size: 6.5rem;
+    color: white;
+}
+
+.client-logo {
+    border-radius: 70px;
+    width: 60%;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.client-logo:hover {
+    transform: scale(1.1);
+}

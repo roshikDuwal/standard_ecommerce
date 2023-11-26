@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+.nav-container {
+    width: 100% !important;
+
+}
+
+
+
+/* ----line hover-----  */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #252B48;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #252B48;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+.header-middle {
+    /* background-color: #252B48 !important; */
+    background-color: white;
+    background-image: none !important;
+    padding: 0.3rem;
+    padding-top: 1rem;
+    border: transparent !important;
+}
+
+.error-text {
+    color: red;
+}
+
+.thirdpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.flat-support div,
+div .social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+ul.flat-support div a {
+    color: black !important;
+}
+
+ul.flat-support div a b {
+    font-size: 12px !important;
+    font-weight: 750 !important;
+    letter-spacing: 1px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif !important;
+}
+
+.social-list li a svg {
+    color: black;
+    font-size: 20px;
+}
+
+
+column-1 :hover {
+    cursor: pointer !important;
+}
+
+.submenu li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+}
+
+.submenu li a {
+    text-transform: uppercase;
+}
+
+.submenu li a {
+    transition: all 0.25s ease-in;
+}
+
+.submenu li a:hover {
+    font-weight: 900 !important;
+    font-size: 13.9px !important;
+}
+
+
+
+
+
+.link {
+    cursor: pointer;
+}
+
+.box-search {
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.box-search input {
+    border-radius: 20px;
+    color: #847D7D;
+    border: 2px solid #252B48;
+}
+
+.box-search input:focus {
+    /* border: none !important; */
+    border: 2px solid #212b5e !important;
+}
+
+.waves-effect {
+    /* background-color: #2D7DC4 !important; */
+    background-color: transparent;
+    padding: 0 1.4rem;
+    border-radius: 0px;
+    color: white;
+}
+
+.waves-effect i {
+
+    color: #847D7D;
+}
+
+
+
+.top-search {
+    padding-bottom: 0.5rem;
+    margin-right: 0 !important;
+}
+
+.social-list {
+    text-align: right;
+    height: 100%;
+}
+
+.social-list li {
+    height: 100%;
+    padding-top: 0.33rem;
+}
+
+.center {
+    margin: 0px auto;
+}
+
+.row div div a div h2 div p {
+    font-size: 12.5px !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+
+.mainnavbar {
+    margin: 0 !important;
+    background-color: white !important;
+  
+}
+
+.mainnavbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 12.5px !important;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    line-height: 29px;
+    /* font-family: 'REM', sans-serif !important; */
+  
+}
+
+.mainnavbar .ullist .listbar {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+   
+
+}
+
+.mainnavbar .ullist .mylist {
+    position: relative;
+}
+
+.mainnavbar .ullist .listbar a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    color: #5f5f5f !important;
+    font-weight: 550;
+}
+
+.mainnavbar .ullist .listbar  svg{
+    font-size: 1rem;
+ 
+}
+
+.mainnavbar .ullist .mylist a:hover,
+.mainnavbar .ullist .list a:hover {
+    color: #051937;
+
+
+}
+
+.mainnavbar .ullist .mylist .sublist {
+
+    visibility: hidden;
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+    width: 100%;
+    top: 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 11.5px !important;
+    font-family: 'REM', sans-serif !important;
+    padding-left: 2rem;
+    transition: all 0.5s ease-in-out;
+    padding-left: 0px !important;
+}
+
+.mainnavbar .ullist .mylist:hover .sublist {
+    visibility: visible;
+    opacity: 2;
+    z-index: 9999;
+}
+
+.mainnavbar .ullist .mylist .sublist li:hover {
+    font-size: 12px !important;
+}
+
+.mainnavbar .ullist .mylist .sublist li {
+    padding: 0.2rem 1rem;
+}
+
+.m-navbar {
+    font-family: 'REM', sans-serif !important;
+    z-index: 999;
+}
+
+.m-navbar .ullist .listbar {
+
+    border-bottom: 2px solid white;
+    cursor: pointer;
+
+}
+
+/* .m-navbar .ullist .list a {
+    color: white !important;
+} */
+
+.logo div {
+    justify-content: end;
+}
+
+.logo div img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: 128px;
+}
+
+.logo .titlename {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.logo .titlename h2 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: none !important;
+    background-color: #124895;
+    /* background-image: linear-gradient(to right, #051937, #3d425c, #707184, #a5a4ae, #dbdbdb) !important; */
+    font-family: 'REM', sans-serif !important;
+    font-size: 23px !important;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    line-height: 29px !important;
+    text-align: center;
+}
+
+.logo .titlename h5 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    background-image: none !important;
+    background-color: #124895;
+    /* background-image: linear-gradient(to left, #051937, #3d425c, #707184, #a5a4ae, #dbdbdb) !important; */
+    font-family: 'REM', sans-serif !important;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    line-height: 29px !important;
+    text-align: center;
+}
+
+.logobox .logo {
+    height: 100% !important;
+    padding-left: 5rem;
+}
+
+.logobox .logo a {
+    width: 100% !important;
+    height: 100%;
+    margin-left: 0 !important;
+}
+
+.logobox .logo .titlename {
+    display: flex;
+    width: 100% !important;
+}
+
+.logobox .logo .titlename div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.logobox .navbaricon {
+    display: none;
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .top-search form.form-search .box-search input {
+        padding-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .mainnavbar {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .logobox {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logobox .logo {
+        width: 80%;
+    }
+
+    .logobox .navbaricon {
+        display: block;
+        color: black;
+        width: 20%;
+        text-align: end;
+        padding-right: 2rem;
+        cursor: pointer;
+
+    }
+
+}

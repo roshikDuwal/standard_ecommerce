@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+footer {
+    background: #0088FB26;
+    font-family: 'REM', sans-serif !important;
+}
+footer li a {
+    color: #000000 !important;
+}
+.widget-newsletter p, .widget-content p{
+    color: #000000 !important;
+}
+footer h3 {
+    color: #2B7FBF !important;
+}
+footer .social-list {
+    text-align: left;
+}
+footer .subscribe-email {
+    border-radius: 4px;
+    background-color: white;
+}
+footer .subscribe-content button {
+    color: white;
+    border-radius: 0px;
+    background-color: #103C6C !important;
+    padding: 0 0.5rem;
+}
