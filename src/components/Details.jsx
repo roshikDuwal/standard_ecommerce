@@ -266,7 +266,7 @@ export const Details = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col-md-6">
                 <div className="rating">
                   <div className="title">Based on 3 reviews</div>
@@ -377,7 +377,7 @@ export const Details = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
